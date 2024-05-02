@@ -37,7 +37,7 @@ speechBtn.addEventListener("click", e => {
             setInterval(() => {
                 if (!synth.speaking && !isSpeaking) {
                     isSpeaking = true;
-                    speechBtn.innerText = "Convert To Speech";
+                    speechBtn.innerText = "Speak Now";
                 } else {}
             }, 500);
             if (isSpeaking) {
@@ -50,7 +50,7 @@ speechBtn.addEventListener("click", e => {
                 speechBtn.innerText = "Resume Speech";
             }
         } else {
-            speechBtn.innerText = "Convert To Speech";
+            speechBtn.innerText = "Speak Now";
         }
     }
 });
